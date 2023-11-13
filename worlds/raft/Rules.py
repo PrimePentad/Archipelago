@@ -60,6 +60,9 @@ class RaftLogic(LogicMixin):
     def raft_can_craft_machete(self, player):
         return self.raft_can_smelt_items(player) and self.raft_can_craft_bolt(player) and self.has("Machete", player)
 
+    def raft_can_craft_titanium_sword(self, player):
+        return self.raft_can_smelt_items(player) and self.raft_can_craft_bolt(player) and self.has("Titanium sword", player) and self.raft_can_find_titanium(player)
+
     def raft_can_craft_ziplineTool(self, player):
         return self.raft_can_craft_hinge(player) and self.raft_can_craft_bolt(player) and self.has("Zipline tool", player)
 
@@ -190,8 +193,9 @@ def set_rules(world, player):
         "Egg": lambda state: state.raft_can_capture_animals(player),
         "TitaniumIngot": lambda state: state.raft_can_smelt_items(player) and state.raft_can_find_titanium(player),
         # Specific items for story island location checks
-        "Machete": lambda state: state.raft_can_craft_machete(player),
-        "Zipline tool": lambda state: state.raft_can_craft_ziplineTool(player)
+        "Machete": lambda state: state.raft_can_craft_machete(player) or state.raft_can_craft_titanium_sword(player),
+        "Zipline tool": lambda state: state.raft_can_craft_ziplineTool(player),
+        "Shovel": lambda state: state.raft_can_craft_machete(player)
     }
 
     # Region access rules
