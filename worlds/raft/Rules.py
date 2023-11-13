@@ -66,6 +66,9 @@ class RaftLogic(LogicMixin):
     def raft_can_get_dirt(self, player):
         return self.raft_can_craft_shovel(player) and self.raft_big_islands_available(player)
 
+    def raft_can_craft_sweep_net(self, player):
+        return self.raft_can_smelt_items(player) and self.raft_can_craft_bolt(player) and self.has("Sweep net", player)
+    
     def raft_can_craft_grassPlot(self, player):
         return self.raft_can_get_dirt(player) and self.has("Grass plot", player)
 
@@ -182,7 +185,7 @@ def set_rules(world, player):
         "PlasticBottle_Empty": lambda state: state.raft_can_craft_plasticBottle(player),
         "Wool": lambda state: state.raft_can_capture_animals(player) and state.raft_can_craft_shears(player),
         "HoneyComb": lambda state: state.raft_can_access_balboa_island(player),
-        "Jar_Bee": lambda state: state.raft_can_access_balboa_island(player) and state.raft_can_smelt_items(player),
+        "Jar_Bee": lambda state: state.raft_can_access_balboa_island(player) and state.raft_can_craft_sweep_net(player),
         "Dirt": lambda state: state.raft_can_get_dirt(player),
         "Egg": lambda state: state.raft_can_capture_animals(player),
         "TitaniumIngot": lambda state: state.raft_can_smelt_items(player) and state.raft_can_find_titanium(player),
