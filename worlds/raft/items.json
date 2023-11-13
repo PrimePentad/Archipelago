@@ -381,7 +381,7 @@
     },
     {
         "id": 47077,
-        "progression": false,
+        "progression": true,
         "name": "Sweep net"
     },
     {
@@ -416,7 +416,7 @@
     },
     {
         "id": 47084,
-        "progression": false,
+        "progression": true,
         "name": "Titanium sword"
     },
     {
