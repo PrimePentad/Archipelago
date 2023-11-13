@@ -220,9 +220,9 @@ class RaftWorld(World):
             "ExpensiveResearch": bool(self.multiworld.expensive_research[self.player].value),
             "DeathLink": bool(self.multiworld.death_link[self.player].value),
             "BigIslandEarlyCrafting": bool(self.multiworld.big_island_early_crafting[self.player].value),
-            "PaddleboardMode": bool(self.multiworld.paddleboard_mode[self.player].value)
-            "ProgressiveItems": bool(self.multiworld.progressive_items[self.player].value)
-            "ExpensiveResearch": bool(self.multiworld.expensive_research[self.player].value)
+            "PaddleboardMode": bool(self.multiworld.paddleboard_mode[self.player].value),
+            "ProgressiveItems": bool(self.multiworld.progressive_items[self.player].value),
+            "ExpensiveResearch": bool(self.multiworld.expensive_research[self.player].value),
             "IslandFrequencyLocations": self.multiworld.island_frequency_locations[self.player].value
         }
 
