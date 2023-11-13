@@ -779,17 +779,26 @@
     {
         "id": 48100,
         "name": "Caravan Island Doctor's note",
-        "region": "CaravanIsland"
+        "region": "CaravanIsland",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48101,
         "name": "Firework blueprint",
-        "region": "CaravanIsland"
+        "region": "CaravanIsland",
+        "requiresAccessToItems": [
+            "ExplosivePowder"
+        ]
     },
     {
         "id": 48102,
         "name": "Battery Charger quest",
-        "region": "CaravanIsland"
+        "region": "CaravanIsland",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48103,
@@ -810,7 +819,10 @@
     {
         "id": 48105,
         "name": "Engine controls blueprint",
-        "region": "CaravanIsland"
+        "region": "CaravanIsland",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48106,
@@ -850,22 +862,34 @@
     {
         "id": 48113,
         "name": "Tangaroa Riot Log",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48114,
         "name": "Tangaroa Tulley Note",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48115,
         "name": "Tangaroa Cipher",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48116,
         "name": "Tangaroa Frequency to Varuna Point",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48117,
@@ -880,17 +904,26 @@
     {
         "id": 48119,
         "name": "Water tank blueprint",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48120,
         "name": "Large Storage blueprint",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48121,
         "name": "Elaine (Tangaroa)",
-        "region": "Tangaroa"
+        "region": "Tangaroa",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48122,
@@ -925,7 +958,10 @@
     {
         "id": 48128,
         "name": "Varuna Point Frequency to Temperance",
-        "region": "Varuna Point"
+        "region": "Varuna Point",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48129,
@@ -935,7 +971,10 @@
     {
         "id": 48130,
         "name": "Advanced Battery blueprint",
-        "region": "Varuna Point"
+        "region": "Varuna Point",
+        "requiresAccessToItems": [
+            "Zipline tool"
+        ]
     },
     {
         "id": 48131,
@@ -1030,17 +1069,28 @@
     {
         "id": 48149,
         "name": "Electric Zipline blueprint",
-        "region": "Utopia"
+        "region": "Utopia",
+        "requiresAccessToItems": [
+            "Zipline tool",
+            "Shovel
+        ]
     },
     {
         "id": 48150,
         "name": "Advanced Backpack blueprint",
-        "region": "Utopia"
+        "region": "Utopia",
+        "requiresAccessToItems": [
+            "Shovel
+        ]
     },
     {
         "id": 48151,
         "name": "Titanium Tools blueprint",
-        "region": "Utopia"
+        "region": "Utopia",
+        "requiresAccessToItems": [
+            "Zipline tool",
+            "Shovel
+        ]
     },
     {
         "id": 48152,
@@ -1055,11 +1105,18 @@
     {
         "id": 48154,
         "name": "Utopia Complete",
-        "region": "Utopia"
+        "region": "Utopia",
+        "requiresAccessToItems": [
+            "Zipline tool",
+            "Shovel
+        ]
     },
     {
         "id": 48155,
         "name": "Relay Station quest",
-        "region": "BalboaIsland"
+        "region": "BalboaIsland",
+        "requiresAccessToItems": [
+            "Machete"
+        ]
     }
 ]
